@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_exp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验1 ListView SimpleAdapter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验2 自定义AlertDialog"
+        app:layout_constraintTop_toBottomOf="@id/btn_exp1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_exp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验3 XML选项菜单"
+        app:layout_constraintTop_toBottomOf="@id/btn_exp2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_exp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验4 ActionMode上下文操作"
+        app:layout_constraintTop_toBottomOf="@id/btn_exp3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_exp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验5 RecyclerView列表"
+        app:layout_constraintTop_toBottomOf="@id/btn_exp4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
